@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Net.Sockets;
 using System.Net;
+using System.Threading;
 
 namespace ChatServerMultiClient
 {
@@ -15,6 +16,7 @@ namespace ChatServerMultiClient
         private ChatServerMultiClient server = null;
         private int ID = -1;
         private StreamReader reader = null;
+        private Thread thread = null;
 
         public ChatServerThread(ChatServerMultiClient server, Socket socket)
         {
@@ -52,6 +54,13 @@ namespace ChatServerMultiClient
             }
         }
 
-        
+        public void Start()
+        {
+            if (thread == null)
+            {
+                thread = new Thread(new ThreadStart(Run));
+                thread.Start();
+            }
+        }
     }
 }

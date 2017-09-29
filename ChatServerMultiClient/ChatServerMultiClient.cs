@@ -74,7 +74,7 @@ namespace ChatServerMultiClient
             try
             {
                 client.Open();
-                Start();
+                client.Start();
             } catch(IOException ioe)
             {
                 Console.WriteLine($"Error opening thread: {ioe}");
