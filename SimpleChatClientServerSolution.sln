@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChatClientServerSolution", "SimpleChatClientServerSolution\SimpleChatClientServerSolution.csproj", "{34AFC835-2162-4232-BFFF-92F72B4CDD06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "SimpleChatClientServerSolution\ChatServer.csproj", "{34AFC835-2162-4232-BFFF-92F72B4CDD06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{78F779D1-D874-47D1-AC8E-191F07C61979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient.Tests", "ChatClient.Tests\ChatClient.Tests.csproj", "{AFD6BC34-2462-4CA2-AB3F-B0DB92AEEE3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer.Tests", "ChatServer.Tests\ChatServer.Tests.csproj", "{100836BF-53AE-4ABB-A178-5C67792F9AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServerThread", "ChatServerThread\ChatServerThread.csproj", "{B47FDF1D-424F-4998-9DF7-FD448A497C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServerMultiClient", "ChatServerMultiClient\ChatServerMultiClient.csproj", "{40F01623-8131-4A8F-AC37-F0467A6A58F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{34AFC835-2162-4232-BFFF-92F72B4CDD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AFC835-2162-4232-BFFF-92F72B4CDD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34AFC835-2162-4232-BFFF-92F72B4CDD06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F779D1-D874-47D1-AC8E-191F07C61979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F779D1-D874-47D1-AC8E-191F07C61979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F779D1-D874-47D1-AC8E-191F07C61979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F779D1-D874-47D1-AC8E-191F07C61979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD6BC34-2462-4CA2-AB3F-B0DB92AEEE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD6BC34-2462-4CA2-AB3F-B0DB92AEEE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD6BC34-2462-4CA2-AB3F-B0DB92AEEE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD6BC34-2462-4CA2-AB3F-B0DB92AEEE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100836BF-53AE-4ABB-A178-5C67792F9AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100836BF-53AE-4ABB-A178-5C67792F9AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100836BF-53AE-4ABB-A178-5C67792F9AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100836BF-53AE-4ABB-A178-5C67792F9AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47FDF1D-424F-4998-9DF7-FD448A497C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47FDF1D-424F-4998-9DF7-FD448A497C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47FDF1D-424F-4998-9DF7-FD448A497C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47FDF1D-424F-4998-9DF7-FD448A497C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F01623-8131-4A8F-AC37-F0467A6A58F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F01623-8131-4A8F-AC37-F0467A6A58F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F01623-8131-4A8F-AC37-F0467A6A58F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F01623-8131-4A8F-AC37-F0467A6A58F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
